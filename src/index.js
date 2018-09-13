@@ -6,7 +6,7 @@ module.exports = function getLoveTrianglesCount(preferences = []) {
   var love = 0;
   for (var x = 0; x < preferences.length; x++) //not <= cause arr starts at 0
   {
-  
+  //THIS IS A QUICKUNION ALG MODEL
   /*
   given that x loves y loves z loves x
   and triangle can happen only ONCE in an array p
@@ -21,3 +21,4 @@ module.exports = function getLoveTrianglesCount(preferences = []) {
   }
   return(love/3);
 };
+d
